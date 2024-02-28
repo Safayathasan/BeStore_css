@@ -1,0 +1,246 @@
+body {
+    font-family: "Plus Jakarta Sans", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    display: inline-block;
+}
+
+.logo {
+    width: 20px;
+}
+
+.highlight {
+    width: 1536px;
+    background-color: #FFB300;
+    /* background-color: #ff4d00; */
+    border-top: 6px solid white;
+    font-size: 21px;
+}
+
+.highlight>span {
+    display: inline-block;
+    height: 53px;
+    margin: 0;
+    line-height: 53px;
+}
+
+.highlight>.alert {
+    width: 1400px;
+    padding-left: 70px;
+    text-align: center;
+
+}
+
+.highlight>.cancelbtn {
+    width: 56px;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.highlight>.cancelbtn>button {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.navbar {
+    height: 65px;
+    line-height: 65px;
+    color: gray;
+    width: 1436px;
+    background-color: #F7F7F7;
+    /* border-bottom: 1px solid rgb(206, 39, 39); */
+    font-size: 18px;
+    padding: 0px 50px 0px 50px;
+}
+
+.navbar span {
+    width: 681px;
+    padding-left: 33px;
+
+}
+
+.navbar>span,
+ul {
+    display: inline-block;
+}
+
+.navbar>ul {
+    padding-left: 60px;
+    width: 654px;
+    margin: 0;
+}
+
+.navbar>ul>li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+    /* width: 126px; */
+}
+
+.navbar>ul>li>a {
+    color: gray;
+
+}
+
+.main>.mainlogo,
+.searchform,
+#utilitymenu {
+    display: inline-block;
+}
+
+.main {
+    padding: 0px 50px 0px 50px;
+    /* background-color: aqua; */
+    height: 100px;
+    width: 1436px;
+}
+
+.main>div,
+nav {
+    vertical-align: middle;
+}
+
+.mainlogo>img {
+    width: 150px;
+    padding-left: 30px;
+    padding-top: 23px;
+}
+
+/* .main>div>label,
+input {
+    vertical-align: middle;
+} */
+
+.main>div>form>label>button {
+    border: 0;
+    background-color: transparent;
+    height: 48px;
+    width: 43px;
+    text-align: right;
+}
+
+.main>div>form>input {
+    border: 0;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    height: 48px;
+    width: 490px;
+}
+
+.main>.searchform {
+    width: 538px;
+    height: 48px;
+    border: 1px solid rgb(246, 243, 243);
+    border-radius: 10px;
+    margin-top: 18px;
+    margin-left: 67px;
+    /* vertical-align: middle; */
+}
+
+.ph::placeholder {
+    font-size: large;
+    color: gray;
+    opacity: 0.2;
+    line-height: 30px;
+}
+
+#utilitymenu {
+    margin: 0;
+    padding: 0;
+}
+
+#utilitymenu>ul {
+    padding-top: 17px;
+
+}
+
+#utilitymenu>ul>li {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+#utilitymenu>ul>li>a {
+    border: 0;
+    background-color: transparent;
+    font-size: 18px;
+}
+
+#productmenu {
+    padding: 0px 50px 27px 50px;
+    vertical-align: middle;
+    width: 1436px;
+    border-bottom: 1px solid rgb(232, 231, 231);
+}
+
+#productmenu>ul {
+    margin: 0;
+    padding: 0;
+    padding-left: 50px;
+    padding-top: 29px;
+}
+
+#productmenu>ul>li {
+    font-size: 20px;
+    display: inline-block;
+}
+
+.hide {
+    display: none;
+}
+
+#container {
+    background-image: url(assets/images/bestore.PNG);
+    background-size: 1549px;
+    min-height: 310px;
+    background-repeat: no-repeat;
+}
+
+.w-950 {
+    width: 950px;
+}
+
+.w-100 {
+    width: 100px;
+}
+
+.w-150 {
+    width: 150px;
+}
+
+.w-50 {
+    width: 50px;
+}
+
+.fc-g {
+    color: gray;
+}
+
+.pl-30 {
+    padding-left: 30px;
+}
+
+.pl-25 {
+    padding-left: 25px;
+}
+
+.pl-10 {
+    padding-left: 10px;
+}
